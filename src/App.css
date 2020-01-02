@@ -3,9 +3,19 @@
   display: flex;
   min-height: 100vh;
   flex : 1;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 600px){
+  .container-main{
+    flex-direction: column;
+  }
+}
+
+.image-container{
+  width: 35vw;
 }
 
 .main-text-wrapper {
@@ -21,12 +31,6 @@
   cursor: none;
   padding-left: 1vw;
   padding-right: 1vw;
-}
-
-
-
-.main-text-wrapper:hover{
-  
 }
 
 
