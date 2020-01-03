@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Screens/App';
 import spring from './Screens/Spring';
-import { Route, BrowserRouter as Router } from 'react-router-dom'
+import { Route, BrowserRouter as Router, HashRouter } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
-    <Router>
+    <HashRouter>
       <div>
         <Route exact path="/" component={App} />
         <Route path="/spring" component={spring} />
       </div>
-    </Router>
+    </HashRouter>
   )
 
 ReactDOM.render(routing, document.getElementById('root'));
