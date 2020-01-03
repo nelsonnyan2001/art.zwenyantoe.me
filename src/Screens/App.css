@@ -1,5 +1,5 @@
 .container-main{
-  background-image: url('./bg.gif');
+  background-image: url('../images/bg.gif');
   display: flex;
   min-height: 100vh;
   flex : 1;
@@ -8,14 +8,19 @@
   align-items: center;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
   .container-main{
     flex-direction: column;
   }
 }
 
 .image-container{
-  width: 35vw;
+  width: 30vw;
+}
+
+.link{
+  text-decoration: underline;
+  color: white;
 }
 
 .main-text-wrapper {
@@ -28,17 +33,6 @@
   text-align: center;
   display: inline-block; 
   font-size: calc(20px);
-  cursor: none;
   padding-left: 1vw;
   padding-right: 1vw;
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

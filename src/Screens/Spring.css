@@ -1,0 +1,52 @@
+.container-spring{
+    background-image: url('../images/starbg.gif');
+    display: flex;
+    min-height: 100vh;
+    flex : 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+@media screen and (max-width: 768px){
+    .container-spring{
+        flex-direction: column;
+    }
+    .spring-text-wrapper{
+        flex: 1;
+        margin: 5vw;
+    }
+    .image-container-left{
+        max-width: 50vw;
+    }
+    .image-container-right{
+        max-width: 50vw;
+    }
+    .mobile-horizontal{
+        flex: 0;
+    }
+}
+
+.image-container-left{
+    flex: 0.5;
+    max-width: 50%;
+}
+
+.image-container-right{ 
+    flex: 0.5;
+    max-width: 50%;
+}
+
+.spring-text-wrapper {
+    color: white;   
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    flex-direction: column;
+    flex:0.6;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: calc(20px);
+    cursor: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}   
