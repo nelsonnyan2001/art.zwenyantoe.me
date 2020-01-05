@@ -1,0 +1,39 @@
+.container-main{
+    background-image: url('../../images/bg.gif');
+    display: flex;
+    min-height: 100vh;
+    flex : 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 768px){
+    .container-main{
+      flex-direction: column;
+    }
+  }
+  
+  .image-container{
+    width: 30vw;
+  }
+  
+  .link-tea{
+    text-decoration: underline;
+    color: white;
+    margin: 20px;
+  }
+  
+  .tea-text-wrapper {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: inline-block; 
+    font-size: calc(20px);
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }

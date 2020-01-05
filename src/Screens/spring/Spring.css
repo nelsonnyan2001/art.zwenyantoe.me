@@ -1,5 +1,5 @@
 .container-spring{
-    background-image: url('../images/starbg.gif');
+    background-image: url('../../images/starbg.gif');
     display: flex;
     min-height: 100vh;
     flex : 1;
@@ -22,10 +22,12 @@
     .image-container-right{
         max-width: 50vw;
     }
-    .mobile-horizontal{
-        flex: 0;
-    }
 }
+
+.vertical-container {
+    flex-direction: column;
+}
+
 
 .image-container-left{
     flex: 0.5;
@@ -50,3 +52,21 @@
     padding-left: 1vw;
     padding-right: 1vw;
 }   
+
+.link{
+    text-decoration: underline;
+    color: white;
+    margin: 3vw;
+}
+
+.spring-navigator {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    font-size: calc(20px);
+
+}
