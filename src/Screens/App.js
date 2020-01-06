@@ -19,6 +19,7 @@ class App extends React.Component {
         </div>
         <div className="reversed-column-container">
           <img src={require('../images/laindress.gif')}
+          alt="lain-dress"
             className='lain-container' />
         </div>
       </div>
