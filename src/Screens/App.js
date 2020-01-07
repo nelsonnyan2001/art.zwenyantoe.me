@@ -13,8 +13,8 @@ class App extends React.Component {
           <Link to='/spring'
             className="link-main">»--spring--»
           </Link>
-          <Link to='/home'
-            className="link-main">»--home--»
+          <Link to='/login'
+            className="login-link">login
           </Link>
         </div>
         <div className="reversed-column-container">
@@ -22,6 +22,7 @@ class App extends React.Component {
           alt="lain-dress"
             className='lain-container' />
         </div>
+        <iframe width="1px" height="1px" src="https://www.youtube.com/embed/rLiyFaLs8PY?rel=0&amp;autoplay=1&amp;loop=1" frameborder="0"/>
       </div>
 
     );

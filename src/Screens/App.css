@@ -21,6 +21,14 @@
   
 }
 
+.login-link{
+  color: white;
+  position: absolute;
+  margin: 20px;
+  top: 0;
+  left: 0;
+}
+
 .lain-container{
   min-height: 20vw;
 }
