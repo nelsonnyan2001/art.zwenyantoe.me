@@ -6,7 +6,7 @@ import spring from './Screens/spring/Spring';
 import tea from './Screens/tea/tea';
 import home from './Screens/home/Home';
 
-import { Route, BrowserRouter as HashRouter } from 'react-router-dom'
+import { Route, HashRouter } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
