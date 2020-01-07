@@ -11,12 +11,10 @@ import * as serviceWorker from './serviceWorker';
 
 const routing = (
   <HashRouter>
-    <div>
       <Route exact path="/" component={App} />
       <Route path="/spring" component={spring} />
       <Route path="/tea" component={tea} />
       <Route path="/home" component={home} />
-    </div>
   </HashRouter>
 )
 
