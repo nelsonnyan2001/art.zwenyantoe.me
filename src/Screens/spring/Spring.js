@@ -26,13 +26,9 @@ class Spring extends React.Component {
                 </div>
                 <div className="vertical-container">
                     <div className="spring-navigator">
-                        <Link to='/tea'
+                        <Link to='/'
                             className="link">
-                            «--tea--«
-                        </Link>
-                        <Link to='/home'
-                            className="link">
-                            »--home--»
+                            «--main--«
                         </Link>
                     </div>
                     <img

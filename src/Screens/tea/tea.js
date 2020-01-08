@@ -23,9 +23,6 @@ class tea extends React.Component {
             <Link to='/'
               className='link-tea'>«--main--«
             </Link>
-            <Link to='/spring'
-              className="link-tea">»--spring--»
-            </Link>
           </p>
         </div>
         <img
