@@ -6,6 +6,7 @@ import spring from './Screens/spring/Spring';
 import tea from './Screens/tea/tea';
 import home from './Screens/home/Home';
 import login from './Screens/login/Login';
+import secret from './Screens/secret/Secret';
 
 import { Route, HashRouter } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
@@ -17,6 +18,7 @@ const routing = (
       <Route path="/tea" component={tea} />
       <Route path="/home" component={home} />
       <Route path="/login" component={login}/>
+      <Route path="/secret" component={secret}/>
   </HashRouter>
 )
 

@@ -9,8 +9,12 @@ class Login extends React.Component {
             username: "",
             password: ""
         }
-
+        
         this.handleUserName = this.handleUserName.bind(this);
+    }
+
+    credentials = {
+        cyka: "blyat",
     }
 
     handleUserName = (event) => {
@@ -25,14 +29,13 @@ class Login extends React.Component {
 
     submitHandler = (event) => {
         event.preventDefault();
-        if (this.state.username === "admin" && this.state.password === "bigshitter69") {
-            this.props.history.push('/home')
+        if (this.state.username in this.credentials && this.state.password === this.credentials[this.state.username]) {
+            this.props.history.push('/secret')
         }
         else {
             document.getElementById("inputForm").reset();
             ReactDOM.render("incorrect", document.getElementById('incorrectText'));
         }
-
 
     }
 
@@ -50,19 +53,24 @@ class Login extends React.Component {
                         <input
                             type="text"
                             className="inputStyling"
+                            placeholder="имя пользователя"
                             onChange={this.handleUserName} />
                         <input
                             type="password"
+                            placeholder="пароль"
                             className="inputStyling"
                             onChange={this.handlePassword} />
                         <input
                             className="inputStyling"
-                            value="log in"
+                            value="авторизоваться"
                             type="submit" />
                     </form>
+                    <br/ >
+                    <br/ >
+                    <br/ >
                     <div id="incorrectText"
                         className="incorrectInput">
-                            <br/>
+                        <br />
                     </div>
 
                 </div>
