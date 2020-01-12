@@ -8,14 +8,17 @@ class Home extends React.Component {
             <div className="container-home">
                 <div className="home-text">
                     <div className="home-text-wrapper">
-                        <p> Listen to the mustnt's, child. <br/>
-                            <br/> Listen to the shouldn'ts, <br/>
-                            <br/> the impossibles, <br/>
-                            <br/> the won'ts. <br/>
-                            <br/> Listen to the never haves, <br/>
-                            <br/> then listen close to me... <br/>
-                            <br/> Anything can happen, child. <br/>
-                            <br/> Anything can be. <br/>
+                        <div className="home-title-wrapper">
+                            <p> home </p>
+                        </div>
+                        <p> Listen to the mustnt's, child. <br />
+                            <br /> Listen to the shouldn'ts, <br />
+                            <br /> the impossibles, <br />
+                            <br /> the won'ts. <br />
+                            <br /> Listen to the never haves, <br />
+                            <br /> then listen close to me... <br />
+                            <br /> Anything can happen, child. <br />
+                            <br /> Anything can be. <br />
                         </p>
                     </div>
                     <div className="home-small-wrapper">
@@ -23,14 +26,14 @@ class Home extends React.Component {
                     </div>
                     <div className="home-text-wrapper">
                         <Link to="/"
-                        className="home-link">
+                            className="home-link">
                             «--main--«
                         </Link>
                     </div>
                 </div>
-                    <img className="fixed-picture"
-                    src={require('../../images/lain-sleeping.gif')}/>
-                </div>
+                <img className="fixed-picture"
+                    src={require('../../images/lain-sleeping.gif')} />
+            </div>
         );
     }
 }

@@ -8,6 +8,9 @@ class Home extends React.Component {
             <div className="container-moon">
                 <img src={require('../../images/moonflicker.gif')} />
                 <div className="moon-text-wrapper">
+                    <div className="moon-title-wrapper">
+                        <p>moon</p>
+                    </div>
                     <p> i look at you <br />
                     <br /> in your yellow dress <br />
                     <br /> and i look at the moon - <br />
