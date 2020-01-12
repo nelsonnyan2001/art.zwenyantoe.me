@@ -24,7 +24,7 @@ class Home extends React.Component {
                     <div className="home-text-wrapper">
                         <Link to="/"
                         className="home-link">
-                            «--Home--«
+                            «--main--«
                         </Link>
                     </div>
                 </div>
