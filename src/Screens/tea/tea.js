@@ -11,6 +11,9 @@ class tea extends React.Component {
           alt="Lain laughing"
           className="image-container"></img>
         <div className="tea-text-wrapper">
+          <div class="tea-title-wrapper">
+            <p>tea</p>
+          </div>
           <p> the tea that I drank <br />
             <br /> at the corner store we love <br />
             <br /> was sweet and cold <br />

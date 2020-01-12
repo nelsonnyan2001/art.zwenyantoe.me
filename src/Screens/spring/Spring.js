@@ -8,6 +8,9 @@ class Spring extends React.Component {
             <div className="container-spring">
 
                 <div className="spring-text-wrapper">
+                    <div class="spring-title-wrapper">
+                        <p>spring</p>
+                    </div>
                     <p>It's not the rain going pitter patter on my drab window<br />
                         <br />Or the flowers that bloom in January that you loved to get.<br />
                         <br />Not your picture on the wall that seems incapable of getting older-<br />

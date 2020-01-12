@@ -8,6 +8,15 @@
     align-items: center;
   }
 
+.link-home{
+    color: white;
+    position: absolute;
+    margin: 20px;
+    top: 0;
+    left: 0;
+}
+  
+
 .inputStyling{
     padding: 10px;
     padding-left: 20px;
@@ -28,12 +37,10 @@
 }
 
 .formHolder{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .login-text{
