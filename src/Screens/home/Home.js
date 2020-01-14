@@ -32,7 +32,8 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <img className="fixed-picture"
-                    src={require('../../images/lain-sleeping.gif')} />
+                    src={require('../../images/lain-sleeping.gif')}
+                    alt="lain-moon" />
             </div>
         );
     }
