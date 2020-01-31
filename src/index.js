@@ -6,6 +6,7 @@ import spring from './Screens/spring/Spring';
 import tea from './Screens/tea/tea';
 import home from './Screens/home/Home';
 import login from './Screens/login/Login';
+import artist from './Screens/artist/artist';
 import moon from './Screens/moon/Moon';
 import secret from './Screens/secret/Secret';
 
@@ -15,13 +16,14 @@ import * as serviceWorker from './serviceWorker';
 
 const routing = (
   <HashRouter>
-      <Route exact path="/" component={App} />
-      <Route path="/spring" component={spring} />
-      <Route path="/tea" component={tea} />
-      <Route path="/home" component={home} />
-      <Route path="/login" component={login}/>
-      <Route path="/secret" component={secret}/>
-      <Route path="/moon" component={moon}/>
+    <Route exact path="/" component={App} />
+    <Route path="/spring" component={spring} />
+    <Route path="/tea" component={tea} />
+    <Route path="/home" component={home} />
+    <Route path="/login" component={login} />
+    <Route path="/secret" component={secret} />
+    <Route path="/artist" component={artist} />
+    <Route path="/moon" component={moon} />
   </HashRouter>
 )
 

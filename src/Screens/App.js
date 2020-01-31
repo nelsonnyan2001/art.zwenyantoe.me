@@ -25,6 +25,9 @@ class App extends React.Component {
           <Link to='/moon'
             className="link-main">»--moon--»
           </Link>
+          <Link to='/artist'
+            className="link-main">»--artist--»
+          </Link>
         </div>
         <div className="reversed-column-container">
           <img src={require('../images/laindress.gif')}
