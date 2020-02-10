@@ -1,5 +1,5 @@
 .artist-home{
-    background-image: url('../../images/bghome.gif');
+    background-image: url('../../images/bgstatic.gif');
     display: flex;
     min-height: 100vh;
     flex : 1;
@@ -47,7 +47,7 @@
   
 }
 
-.artist-small-wrapper {
+.artist-text-small {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-align: center;

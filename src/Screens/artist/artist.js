@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class Artist extends React.Component {
     render() {
         return (
-            <div className="container-artist">
+            <div className="artist-home">
                 <div className="artist-text">
                     <div className="artist-text-wrapper">
                         <div className="artist-title-wrapper">
@@ -25,10 +25,15 @@ class Artist extends React.Component {
                             <br />
                             <br />    Now she has grown up to realise - <br />
                             <br />    how naive it was<br />
-                            <br /> to expect anyone to read between the lines <br />
-                            <br /> and understand. <br />
+                            <br />    to expect anyone to read between the lines <br />
+                            <br />    and understand. <br />
+                            <br />
                         </p>
-
+                        <div className="artist-text-small">
+                            {"<wonderland>"}
+                        </div>
+                        <br/>
+                        <br/>
                         <Link to="/"
                             className="home-link">
                             «--main--«
