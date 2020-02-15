@@ -29,12 +29,15 @@
   text-align: center;
 }
 
-.login-link{
+.top-links{
   color: white;
-  position: absolute;
-  margin: 20px;
-  top: 0;
-  left: 0;
+  align-self: flex-start;
+  margin: 20px 20px 0px 20px;
+  font-size: 20px;
+}
+
+.white-links{
+  color: white;
 }
 
 .lain-container{
@@ -59,5 +62,8 @@
 @media screen and (max-width: 768px){
   .lain-container{
     min-height: 40vw;
+  }
+  .top-links{
+    font-size: 12px;
   }
 }

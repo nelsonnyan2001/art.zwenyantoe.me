@@ -8,9 +8,15 @@ class App extends React.Component {
       <div className="container-app">
 
         <div className="main-text-wrapper">
-          <Link to='/login'
-            className="login-link">login
+          <div className="top-links">
+            <Link to='/login'
+              className="white-links">login
+            </Link> •{' '}
+            <Link to='/me'
+              className="white-links">
+              me
           </Link>
+          </div>
 
           <br />
           <Link to='/tea'
