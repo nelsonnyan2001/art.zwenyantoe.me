@@ -1,0 +1,20 @@
+.container-kmh{
+    background-image: url('../../images/kmh.jpg');
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    flex : 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 'cover';
+  }
+
+  .kmh-text{
+    background-color: white;
+    color: black;
+    padding: 20px;
+  }

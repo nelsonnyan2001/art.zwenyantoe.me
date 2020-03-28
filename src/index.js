@@ -11,6 +11,7 @@ import moon from './Screens/moon/Moon';
 import secret from './Screens/secret/Secret';
 import me from './Screens/me/Me';
 import alith from './Screens/alith/alith';
+import kmh from './Screens/kmh/kmh';
 
 import { Route, HashRouter } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
@@ -27,6 +28,7 @@ const routing = (
     <Route path="/moon" component={moon} />
     <Route path="/me" component={me} />
     <Route path="/alith" component={alith} />
+    <Route path="/kmh" component={kmh} />
   </HashRouter>
 )
 
