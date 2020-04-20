@@ -40,11 +40,6 @@ class App extends React.Component {
             alt="lain-dress"
             className='lain-container' />
         </div>
-        <iframe
-          title="bgm"
-          width="1px"
-          height="1px"
-          src="https://www.youtube.com/embed/rLiyFaLs8PY?rel=0&amp;autoplay=1&amp;loop=1" frameborder="0" />
       </div>
 
     );
