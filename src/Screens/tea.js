@@ -1,17 +1,17 @@
 import React from 'react';
-import './tea.css';
 import { Link } from 'react-router-dom';
 
 class tea extends React.Component {
   render() {
     return (
-      <div className="container-main">
+      <div className="container-tea">
+        <a class="skip-link" href="#spring">Skip to next</a>
         <img
-          src={require('../../images/lain-laughing.gif')}
+          src={require('../images/lain-laughing.gif')}
           alt="Lain laughing"
           className="image-container"></img>
-        <div className="tea-text-wrapper">
-          <div class="tea-title-wrapper">
+        <div className="text-wrapper">
+          <div class="title-wrapper">
             <p>tea</p>
           </div>
           <p> the tea that I drank <br />
@@ -29,7 +29,7 @@ class tea extends React.Component {
           </p>
         </div>
         <img
-          src={require('../../images/lain-yearning.gif')}
+          src={require('../images/lain-yearning.gif')}
           alt="Sad Lain"
           className="image-container"></img>
       </div>

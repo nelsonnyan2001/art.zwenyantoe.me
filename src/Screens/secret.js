@@ -1,6 +1,6 @@
 import React from 'react';
-import './Secret.css';
-import { } from 'react-router-dom';
+import './App.css'
+import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
     render() {
@@ -11,8 +11,14 @@ class Home extends React.Component {
                         <p> how did you find me </p>
                     </div>
                     <img className="secret-image"
-                        src={require('../../images/lain-screaming.gif')}
+                        src={require('../images/lain-screaming.gif')}
                         alt="Lain Screaming" />
+
+                    <div className="secret-text-wrapper">
+                        <Link to='/'
+                            className="link">«--home--«
+                        </Link>
+                    </div>
                 </div>
             </div>
         );

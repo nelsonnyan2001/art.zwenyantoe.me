@@ -1,14 +1,13 @@
 import React from 'react';
-import './Spring.css';
 import { Link } from 'react-router-dom';
 
 class Spring extends React.Component {
     render() {
         return (
             <div className="container-spring">
-
+                <a class="skip-link" href="#home">Skip to next</a>
                 <div className="spring-text-wrapper">
-                    <div class="spring-title-wrapper">
+                    <div class="title-wrapper">
                         <p>spring</p>
                     </div>
                     <p>It's not the rain going pitter patter on my drab window<br />
@@ -35,11 +34,11 @@ class Spring extends React.Component {
                         </Link>
                     </div>
                     <img
-                        src={require('../../images/left-hand.gif')}
+                        src={require('../images/left-hand.gif')}
                         alt="Left Hand"
                         className="image-container-left" />
                     <img
-                        src={require('../../images/right-hand.gif')}
+                        src={require('../images/right-hand.gif')}
                         alt="Right Hand"
                         className="image-container-right" />
 

@@ -1,14 +1,14 @@
 import React from 'react';
-import './Home.css';
+import './App.css';
 import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
     render() {
         return (
             <div className="container-home">
-                <div className="home-text">
+                <a class="skip-link" href="#moon">Skip to next</a>
                     <div className="home-text-wrapper">
-                        <div className="home-title-wrapper">
+                        <div className="title-wrapper">
                             <p> home </p>
                         </div>
                         <p> the leaves on the sidewalk don't crunch like they used to. <br />
@@ -33,13 +33,12 @@ class Home extends React.Component {
                         </p>
 
                         <Link to="/"
-                            className="home-link">
+                            className="link">
                             «--main--«
                         </Link>
                     </div>
-                </div>
                 <img className="fixed-picture"
-                    src={require('../../images/lain-sleeping.gif')}
+                    src={require('../images/lain-sleeping.gif')}
                     alt="lain-moon" />
             </div>
         );

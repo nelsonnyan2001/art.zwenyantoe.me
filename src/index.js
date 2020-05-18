@@ -2,15 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Screens/App';
-import spring from './Screens/spring/Spring';
-import tea from './Screens/tea/tea';
-import home from './Screens/home/Home';
-import login from './Screens/login/Login';
-import artist from './Screens/artist/artist';
-import moon from './Screens/moon/Moon';
-import secret from './Screens/secret/Secret';
-import me from './Screens/me/Me';
-
+import spring from './Screens/spring';
+import tea from './Screens/tea';
+import home from './Screens/home';
+import login from './Screens/login';
+import artist from './Screens/artist';
+import moon from './Screens/moon';
+import secret from './Screens/secret';
+import me from './Screens/me';
 import { Route, HashRouter } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 

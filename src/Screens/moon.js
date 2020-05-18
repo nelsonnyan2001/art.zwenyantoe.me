@@ -1,17 +1,18 @@
 import React from 'react';
-import './Moon.css';
+import './App.css';
 import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
     render() {
         return (
             <div className="container-moon">
-                <div className="moon-title-wrapper">
+                <a class="skip-link" href="#artist">Skip to next</a>
+                <div className="title-wrapper">
                     <p>moon</p>
                 </div>
-                <img src={require('../../images/moonflicker.gif')}
+                <img src={require('../images/moonflicker.gif')}
                 alt="Lain moon" />
-                <div className="moon-text-wrapper">
+                <div className="text-wrapper">
                     <p> i look at you <br />
                         <br /> in your yellow dress <br />
                         <br /> and i look at the moon - <br />
@@ -23,7 +24,7 @@ class Home extends React.Component {
                     </p>
                     <br />
                     <Link to="/"
-                        className="link-moon">
+                        className="link">
                         «--main--«
                     </Link>
                 </div>

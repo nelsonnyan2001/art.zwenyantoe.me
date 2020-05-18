@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./Login.css";
 import { Link } from "react-router-dom";
 
 
@@ -45,9 +44,6 @@ class Login extends React.Component {
     render() {
         return (
             <div className="container-login">
-                <Link to='/'
-                    className="link-home">«--home--«
-                </Link>
                 <div className="login-text">
                     <p>login</p>
                 </div>
@@ -75,8 +71,11 @@ class Login extends React.Component {
                         className="incorrectInput">
                         <br />
                     </div>
-
                 </div>
+
+                <Link to='/'
+                    className="link">«--home--«
+                    </Link>
             </div>
         );
     }

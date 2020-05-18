@@ -1,5 +1,5 @@
 import React from 'react';
-import './Me.css';
+import './App.css';
 import { Link } from "react-router-dom";
 
 class Me extends React.Component {
@@ -9,12 +9,11 @@ class Me extends React.Component {
                 <div className="text-me">
                     <p>
                         <div className="big-hi">hi</div><br />
-
                         <Link to='/'
-                            className="white-links">
+                            className="link">
                             «--main--«
                         </Link>
-                        <br/>
+                        <br />
                         <br />you somehow stumbled onto my site -
                         <br />or maybe i forced you to come look at it.<br />
                         <br />my name's zwe.
@@ -32,15 +31,15 @@ class Me extends React.Component {
                 <div className="links-container">
                     <a href="https://github.com/nelsonnyan2001">
                         <img className="link-picture"
-                            src={require('../../images/github.png')}
+                            src={require('../images/github.png')}
                             alt="github" /></a>
                     <a href="https://www.facebook.com/zwenyantoe">
                         <img className="link-picture"
-                            src={require('../../images/facebook.png')}
+                            src={require('../images/facebook.png')}
                             alt="github" /></a>
                     <a href="https://www.instagram.com/nelly_skrt/">
                         <img className="link-picture"
-                            src={require('../../images/instagram.png')}
+                            src={require('../images/instagram.png')}
                             alt="github" /></a>
                 </div>
             </div>

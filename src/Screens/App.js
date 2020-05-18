@@ -6,8 +6,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="container-app">
-
-        <div className="main-text-wrapper">
+        <a class="skip-link" href="#tea">Skip to main</a>
+        <div id ="maincontent" className="text-wrapper">
           <div className="top-links">
             <Link to='/login'
               className="white-links">login
@@ -20,19 +20,19 @@ class App extends React.Component {
 
           <br />
           <Link to='/tea'
-            className="link-main">»--tea--»
+            className="link">»--tea--»
           </Link>
           <Link to='/spring'
-            className="link-main">»--spring--»
+            className="link">»--spring--»
           </Link>
           <Link to='/home'
-            className="link-main">»--home--»
+            className="link">»--home--»
           </Link>
           <Link to='/moon'
-            className="link-main">»--moon--»
+            className="link">»--moon--»
           </Link>
           <Link to='/artist'
-            className="link-main">»--artist--»
+            className="link">»--artist--»
           </Link>
         </div>
         <div className="reversed-column-container">
