@@ -1,47 +1,50 @@
-import React from 'react';
-import './App.css';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./App.css";
+import { Link } from "react-router-dom";
 
 class App extends React.Component {
   render() {
     return (
       <div className="container-app">
-        <a class="skip-link" href="#tea">Skip to main</a>
-        <div id ="maincontent" className="text-wrapper">
+        <a class="skip-link" href="#tea">
+          Skip to main
+        </a>
+        <div id="maincontent" className="text-wrapper">
           <div className="top-links">
-            <Link to='/login'
-              className="white-links">login
-            </Link> •{' '}
-            <Link to='/me'
-              className="white-links">
+            <Link to="/login" className="white-links">
+              login
+            </Link>{" "}
+            •{" "}
+            <Link to="/me" className="white-links">
               me
-          </Link>
+            </Link>
           </div>
 
           <br />
-          <Link to='/tea'
-            className="link">»--tea--»
+          <Link to="/tea" className="link">
+            »--tea--»
           </Link>
-          <Link to='/spring'
-            className="link">»--spring--»
+          <Link to="/spring" className="link">
+            »--spring--»
           </Link>
-          <Link to='/home'
-            className="link">»--home--»
+          <Link to="/home" className="link">
+            »--home--»
           </Link>
-          <Link to='/moon'
-            className="link">»--moon--»
+          <Link to="/moon" className="link">
+            »--moon--»
           </Link>
-          <Link to='/artist'
-            className="link">»--artist--»
+          <Link to="/artist" className="link">
+            »--artist--»
           </Link>
         </div>
         <div className="reversed-column-container">
-          <img src={require('../images/laindress.gif')}
+          <img
+            src={require("../images/laindress.gif").default}
             alt="lain-dress"
-            className='lain-container' />
+            className="lain-container"
+          />
         </div>
       </div>
-
     );
   }
 }
