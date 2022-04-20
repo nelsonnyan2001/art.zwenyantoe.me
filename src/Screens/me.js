@@ -47,21 +47,21 @@ class Me extends React.Component {
           <a href="https://github.com/nelsonnyan2001">
             <img
               className="link-picture"
-              src={require("../images/github.png").default}
+              src={require("../images/github.png")}
               alt="github"
             />
           </a>
           <a href="https://www.facebook.com/zwenyantoe">
             <img
               className="link-picture"
-              src={require("../images/facebook.png").default}
+              src={require("../images/facebook.png")}
               alt="github"
             />
           </a>
           <a href="https://www.instagram.com/nelly_skrt/">
             <img
               className="link-picture"
-              src={require("../images/instagram.png").default}
+              src={require("../images/instagram.png")}
               alt="github"
             />
           </a>

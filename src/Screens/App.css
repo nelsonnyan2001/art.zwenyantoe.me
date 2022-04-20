@@ -1,5 +1,5 @@
 .container-app {
-  background-image: url('../images/mainbg.gif');
+  background-image: url("../images/mainbg.gif");
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -24,7 +24,8 @@
   border: black;
   color: beige;
   font-size: 40px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   text-align: center;
 }
 
@@ -59,7 +60,8 @@
 
 .text-wrapper {
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   display: inline-flex;
   flex-direction: column;
   flex: 1;
@@ -71,8 +73,14 @@
   padding-right: 1vw;
 }
 
+.text-wrapper > p,
+.spring-text-wrapper > p,
+.home-text-wrapper > p  {
+  line-height: 60px;
+}
+
 .container-tea {
-  background-image: url('../images/bg.gif');
+  background-image: url("../images/bg.gif");
   display: flex;
   min-height: 100vh;
   flex: 1;
@@ -94,11 +102,21 @@
 }
 
 .container-spring {
-  background-image: url('../images/starbg.gif');
+  background-image: url("../images/starbg.gif");
   display: flex;
   min-height: 100vh;
   flex: 1;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-used {
+  background-image: url("../images/bg_star.gif");
+  display: flex;
+  min-height: 100vh;
+  flex: 1;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -119,7 +137,8 @@
 
 .spring-navigator {
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -130,7 +149,8 @@
 
 .spring-text-wrapper {
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   flex-direction: column;
   flex: 0.6;
   align-items: center;
@@ -145,7 +165,8 @@
   border: black;
   color: beige;
   font-size: 20px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   text-align: center;
   margin: 1vw;
   margin-bottom: 20vw;
@@ -159,7 +180,7 @@
 }
 
 .container-home {
-  background-image: url('../images/bghome.gif');
+  background-image: url("../images/bghome.gif");
   display: flex;
   min-height: 100vh;
   flex: 1;
@@ -169,7 +190,7 @@
 }
 
 .container-home {
-  background-image: url('../images/bghome.gif');
+  background-image: url("../images/bghome.gif");
   display: flex;
   min-height: 100vh;
   flex: 1;
@@ -179,7 +200,7 @@
 }
 
 .container-moon {
-  background-image: url('../images/bgstars.gif');
+  background-image: url("../images/bgstars.gif");
   display: flex;
   min-height: 100vh;
   flex: 1;
@@ -189,7 +210,7 @@
 }
 
 .artist-home {
-  background-image: url('../images/bgstatic.gif');
+  background-image: url("../images/bgstatic.gif");
   display: flex;
   min-height: 100vh;
   flex: 1;
@@ -200,7 +221,8 @@
 
 .artist-text-small {
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   text-align: center;
   font-size: 12px;
 }
@@ -226,7 +248,7 @@
 }
 
 .container-me {
-  background-image: url('../images/bgfalling.gif');
+  background-image: url("../images/bgfalling.gif");
   display: flex;
   min-height: 100vh;
   flex: 1;
@@ -238,7 +260,8 @@
 .text-me {
   margin: 0px 20px 0px 20px;
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   text-align: left;
   font-size: 20px;
 }
@@ -252,14 +275,16 @@
   border: black;
   color: beige;
   font-size: 14px;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   text-align: center;
   margin: 1vw;
 }
 
 .incorrectInput {
   color: red;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .formHolder {
@@ -280,12 +305,13 @@
   align-items: center;
   justify-content: center;
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
   text-align: left;
 }
 
 .container-secret {
-  background-image: url('../images/bg_flash.gif');
+  background-image: url("../images/bg_flash.gif");
   display: flex;
   min-height: 100vh;
   flex: 1;

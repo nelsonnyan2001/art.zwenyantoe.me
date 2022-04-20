@@ -9,7 +9,7 @@ class tea extends React.Component {
           Skip to next
         </a>
         <img
-          src={require("../images/lain-laughing.gif").default}
+          src={require("../images/lain-laughing.gif")}
           alt="Lain laughing"
           className="image-container"
         ></img>
@@ -20,21 +20,21 @@ class tea extends React.Component {
           <p>
             {" "}
             the tea that I drank <br />
-            <br /> at the corner store we love <br />
-            <br /> was sweet and cold <br />
-            <br /> just how i liked it <br />
-            <br /> i don't know how <br />
-            <br /> you push all the right buttons <br />
-            <br /> but this tea isn't nearly as sweet <br />
-            <br /> without you <br />
-            <br />
+             at the corner store we love <br />
+             was sweet and cold <br />
+             just how i liked it <br />
+             i don't know how <br />
+             you push all the right buttons <br />
+             but this tea isn't nearly as sweet <br />
+             without you <br />
+            
             <Link to="/" className="link-tea">
               «--main--«
             </Link>
           </p>
         </div>
         <img
-          src={require("../images/lain-yearning.gif").default}
+          src={require("../images/lain-yearning.gif")}
           alt="Sad Lain"
           className="image-container"
         ></img>

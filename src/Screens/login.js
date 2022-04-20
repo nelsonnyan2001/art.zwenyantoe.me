@@ -15,8 +15,7 @@ class Login extends React.Component {
     }
 
     credentials = {
-        cyka: "blyat",
-        violet_alith32: "kattycattykatty"
+        zwe: "zwe",
     }
 
     handleUserName = (event) => {

@@ -19,7 +19,6 @@ class App extends React.Component {
               me
             </Link>
           </div>
-
           <br />
           <Link to="/tea" className="link">
             »--tea--»
@@ -36,10 +35,13 @@ class App extends React.Component {
           <Link to="/artist" className="link">
             »--artist--»
           </Link>
+          <Link to="/used" className="link">
+            »--used--»
+          </Link>
         </div>
         <div className="reversed-column-container">
           <img
-            src={require("../images/laindress.gif").default}
+            src={require("../images/laindress.gif")}
             alt="lain-dress"
             className="lain-container"
           />

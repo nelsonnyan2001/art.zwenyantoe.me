@@ -10,6 +10,7 @@ import artist from './Screens/artist';
 import moon from './Screens/moon';
 import secret from './Screens/secret';
 import me from './Screens/me';
+import used from './Screens/used';
 import { Route, HashRouter } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
@@ -24,6 +25,7 @@ const routing = (
     <Route path="/artist" component={artist} />
     <Route path="/moon" component={moon} />
     <Route path="/me" component={me} />
+    <Route path="/used" component={used} />
   </HashRouter>
 )
 

@@ -12,7 +12,7 @@ class Home extends React.Component {
           </div>
           <img
             className="secret-image"
-            src={require("../images/lain-screaming.gif").default}
+            src={require("../images/lain-screaming.gif")}
             alt="Lain Screaming"
           />
 
